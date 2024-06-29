@@ -14,7 +14,7 @@ header {
     left: 0;
     width: 100%;
     padding: 20px 120px;
-    background: #ffcdf2; /* Barbie pink background */
+    background: #ffcdf2; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,14 +23,14 @@ header {
 
 .logo {
     font-size: 25px;
-    color: #e60073; /* Barbie pink color for logo */
+    color: #e60073;
     text-decoration: none;
     font-weight: 600;
 }
 
 nav a {
     font-size: 18px;
-    color: #e60073; /* Barbie pink color for navigation links */
+    color: #e60073;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -39,7 +39,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color: #ff7eb6; /* Light pink color on hover and active */
+    color: #ff7eb6;
 }
 
 section {
@@ -47,18 +47,17 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffecf6; /* Light pink background */
+    background: #ffecf6;
     font-size: 100px;
-    color: #9d4edd; /* Purple text color */
+    color: #9d4edd;
     font-weight: 700;
 }
 
 section:nth-child(odd) {
-    background: #ffccf2; /* Lighter pink background for odd sections */
-    color: #6c5ce7; /* Deeper purple text color */
+    background: #ffccf2;
+    color: #6c5ce7; 
 }
 
-/* Active state for navigation links */
 nav a.active {
-    color: #ff7eb6; /* Light pink color for active link */
+    color: #ff7eb6;
 }
