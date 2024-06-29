@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #ffcdf2; /* Barbie pink background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #e60073; /* Barbie pink color for logo */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a {
+    font-size: 18px;
+    color: #e60073; /* Barbie pink color for navigation links */
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #ff7eb6; /* Light pink color on hover and active */
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffecf6; /* Light pink background */
+    font-size: 100px;
+    color: #9d4edd; /* Purple text color */
+    font-weight: 700;
+}
+
+section:nth-child(odd) {
+    background: #ffccf2; /* Lighter pink background for odd sections */
+    color: #6c5ce7; /* Deeper purple text color */
+}
+
+/* Active state for navigation links */
+nav a.active {
+    color: #ff7eb6; /* Light pink color for active link */
+}
