@@ -1,1 +1,2 @@
 # PRODIGY_WD_01
+This project is an interactive, fixed-position navigation menu for a website. It is designed to remain visible at the top of the page as the user scrolls, providing easy access to different sections of the site. The navigation menu features dynamic styling that responds to user interactions, such as scrolling and hovering over menu items. The goal is to enhance the user experience with a visually appealing and functional navigation bar.
